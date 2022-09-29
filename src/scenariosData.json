@@ -1,0 +1,340 @@
+{
+    "Scenarios": [
+        {
+            "id": 0,
+            "text": "Zastanawiasz się od czego by tu zacząć i postanawiasz zagłębić się w miejską dżunglę w poszukiwaniu czegokolwiek co pomoże Ci osiągnąć cel.",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Pójdę szybkim tempem, szkoda tracić czasu",
+                    "results" :[
+                        {
+                            "text": "Przechodzisz płynnie przez otaczającą Cię miejską dżunglę, jeśli będziesz w takim tępnie przechodził przez Bałuty powinienieś wyrobić się ze wszystkim na czas.",
+                            "nextScenarioID": 1,
+                            "moneyReward": 0,
+                            "timeHasPassed": 15
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "text": "Uważnie będę się rozglądać po drodze, może będą leżeć gdzieś jakieś drobne",
+                    "results" :[
+                        {
+                            "text": "Niestety, dokładnie przeczesywałeś ulice przez całą trasę i nic nie znalazłeś",
+                            "nextScenarioID": 1,
+                            "moneyReward": 0,
+                            "timeHasPassed": 30
+                        },
+                        {
+                            "text": "Po chwili wędrówki zauważasz, że przed Tobą coś się mieni. Okazuje się, że jest to PIĄTAK. Uradowany podnosisz go z ulicy.",
+                            "nextScenarioID": 1,
+                            "moneyReward": 5,
+                            "timeHasPassed": 30
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "text": "Chciałeś przygód? No to masz. W twoją stronę zmierza maszywniejszy i wyższy od Ciebie o 20cm tzw. \"Sebastian\". Co robisz?",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Staję do walki",
+                    "results" :[
+                        {
+                            "text": "Oponent się tylko z politowaniem uśmiecha - nawet nie wiesz w którym momencie w jego ręku pojawiła się pałka teleskopowa. Drugi raz z rzędu masz blackout. Gdy się budzisz orientujesz się, że niebo już jest gwieździste i spóźniłeś się na pociąg.",
+                            "nextScenarioID": 6,
+                            "moneyReward": 0,
+                            "timeHasPassed": 360
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "text": "Nic, może nie ma wrogich zamiarów",
+                    "results" :[
+                        {
+                            "text": "Napotkany Seba zaczepia Cię i ... prosi o pomoc. Chodzi o ... list miłosny. Okazało się, że napotkany chłopak chce wyznać swojej ukochanej miłość, ale cyka się że narobił tam sporo błędów ortograficznych. Podczas tej pogawędki poprawiasz mu wszystkie błędy i sprzedajesz mu parę tipów. Mówisz mu także o swoim problemie. Honrowy przechodzień pomaga również Tobie podarowująć 10zł. Pozytywnie zaskoczeni rozchodzicie się w pokojowych stosunkach.",
+                            "nextScenarioID": 2,
+                            "moneyReward": 10,
+                            "timeHasPassed": 20
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "text": "Uciekam",
+                    "results" :[
+                        {
+                            "text": "Biegniesz tak szybko jak możesz, jednak Seba nie odpuszcza. Po bardzo długim czasie udaje Ci się go zgubić, jednak straciłeś na to dużo czasu, a drugie tyle będziesz musiał poświęcić na odpoczynek.",
+                            "nextScenarioID": 3,
+                            "moneyReward": 0,
+                            "timeHasPassed": 40
+                        },
+                        {
+                            "text": "Biegniesz tak szybko jak możesz, jednak Seba jest znacznie szybszy. Dostajesz srogi wp#*@dol i budzisz się o zmroku. Nie zdążyłeś na pociąg.",
+                            "nextScenarioID": 6,
+                            "moneyReward": 0,
+                            "timeHasPassed": 360
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "text": "Podróżując po Bałutach widzisz starą babcię przechodzącą przez pasy. Nagle za zakrętu wylatuje Honda Civic. Jedzie wprost na babcię, w dodatku niebezpiecznie przyśpiesza. Lekko abstrachując wydaje Ci się rysy twarzy kierowcy przypomniają Ci byłego piłkarza Reprezentacji Polski, ale nie to jest ważne w tej sytuacji. Co robisz?",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Chywatasz babcię za rękę i zabierasz ją z pasów",
+                    "results" :[
+                        {
+                            "text": "Stasza pani panicznie krzyczy, wierci się i rozpyla Ci całą puszkę gazu pieprzowego na twarzy. Ewidentnie pomyślała, że ją atakujesz. Myśli, że to wszystko, ale ta babcia (jak każdy inny rdzenny mieszkaniec tych rejonów) zaczyna instynktownie przeszukiwać Twoje kieszenie i portfel. Kiedy gaz przestał już działać, orientujesz się, że ta pani odeszła z całą Twoją dotychczas zgromadzoną gotówką.",
+                            "nextScenarioID": 5,
+                            "moneyReward": -100,
+                            "timeHasPassed": 60
+                        },
+                        {
+                            "text": "Stasza pani orientuje się, że właśnie uratowałeś ją przed piratem drogowym. Dziękuje Bogu, że na tej dzielnicy są jeszcze tacy młodzieńcy jak ty i postanawia ci dać małe kieszonkowe w postaci 10zł.",
+                            "nextScenarioID": 4,
+                            "moneyReward": 10,
+                            "timeHasPassed": 15
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "text": "Bohatersko wybiegasz przed maskę pojazdu krzycząc na kierowce",
+                    "results" :[
+                        {
+                            "text": "Samochód po piskach wyhamowuje tuż przed Tobą. Chwilę sprzeczasz się z kierowcą, jednak ten daje za wygraną i odjeżdża. Starsza pani dziękuje Ci za uratowanie życia i wręcza Ci kieszonkowe w postaci 10zł.",
+                            "nextScenarioID": 4,
+                            "moneyReward": 10,
+                            "timeHasPassed": 15
+                        },
+                        {
+                            "text": "Nie żeby coś, ale nie pomyślałeś chociaż przez chwilę, że to \"trochę\" nierozważna decyzja? Kierowca bardzo niebezpiecznie Cię potrącił, gdyby starsza pani nie zadzwoniła na pogotowie nie wiadomo co by się z Tobą stało. Lądujesz w szpitalu na parę ładnych dni.",
+                            "nextScenarioID": 6,
+                            "moneyReward": 0,
+                            "timeHasPassed": 5760
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "text": "Ostrzegam starszą panią przed nadchodzącym niebezpieczeństwem.",
+                    "results" :[
+                        {
+                            "text": "Staruszka w porę ucieka z pasów. Dziękuje ci za pomoc i odchodzi.",
+                            "nextScenarioID": 4,
+                            "moneyReward": 0,
+                            "timeHasPassed": 15
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3 ,
+            "text": "Napotykasz tzw. \"Lodówę\", która zmierza w Twoją stronę włączając w międzyczasie sygnały. Co robisz?",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Czekam, aż podjadą",
+                    "results" :[
+                        {
+                            "text": "Zostajesz spisany przez policję. Jesteś z tego powodu niezadowolony, bo nie dość że zabrali Ci trochę Twojego cennego czasu, to jeszcze niespecjalnie pomogli pokazując jedynie gdzie znajduje się dworzec.",
+                            "nextScenarioID": 7,
+                            "moneyReward": 0,
+                            "timeHasPassed": 30
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "text": "Krzyczysz \"POLICJA\" i uciekasz",
+                    "results" :[
+                        {
+                            "text": "Policja prowadzi za Tobą pościg, gdy nagle widzisz, że wcześniej napotkany Seba wybiega wraz ze swoimi chłopakami i atakuje pojazd. Dochodzi do wyrównanej walki - huligani są tak skoordynowani, że zachowują się jakby byli jednym organizmem. Bardzo szybko i bez zakłóceń dobrali sobie rywala, a następnie zależnie od priorytetu wymieniają się jedynymm kijem baseball'owym, który że sobą zabrali - wszystko po to, aby nie przegrać batalii z wyszkolonymi policjantami. Nigdy byś nie pomyślał, że tak właśnie wpadniesz na temat projektu na Programowanie Rozproszone. Po krótkiej obserwacji oddalasz się w poszukiwaniu rozwiązania Twojego problemu.",
+                            "nextScenarioID": 7,
+                            "moneyReward": 0,
+                            "timeHasPassed": 15
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "text": "Uciekasz",
+                    "results" :[
+                        {
+                            "text": "Radiowóz dogania Cię. Funkcjonariusze mają dobry humor i zostajesz tylko spisany przez policję. Jesteś z tego powodu niezadowolony, bo nie dość że zabrali Ci trochę Twojego cennego czasu, to jeszcze niespecjalnie pomogli pokazując jedynie gdzie znajduje się dworzec.",
+                            "nextScenarioID": 7,
+                            "moneyReward": 0,
+                            "timeHasPassed": 30
+                        },
+                        {
+                            "text": "Radiowóz dogania Cię. Funkcjonariusze mają bardzo zły humor przez co skuwają Ci ręcę i wiozą do aresztu. Spędasz tam 3 godziny, zanim udaje Ci się im wytłumaczyć, że nic nie zrobiłeś.",
+                            "nextScenarioID": 7,
+                            "moneyReward": 0,
+                            "timeHasPassed": 180
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "text": "Przechadzając się po niezbadanych terenach napotykasz grupę ludzi czających się pod monopolowym. Podchodzą do Ciebie mówią, że właśnie robią napad i że Ty masz im w tym pomóc. Co robisz?",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Zgadzasz się",
+                    "results" :[
+                        {
+                            "text": "Wraz z całą grupą wbiegacie do sklepu i obezwładniacie sprzedawcę. Napad przechodzi gładko - wychodzisz z niego zwycięsko ze stówką w dłoni oraz 2 Żubrami. Opijacie razem swój sukces, a następnie rozchodzicie się w swoje strony.",
+                            "nextScenarioID": 5,
+                            "moneyReward": 100,
+                            "timeHasPassed": 45
+                        },
+                        {
+                            "text": "W trakcie rabunku na miejscu zjawia się tzw. \"Lodówa\" i zabiera Was wszystkich do aresztu. Spędasz tam następną dobę.",
+                            "nextScenarioID": 6,
+                            "moneyReward": 0,
+                            "timeHasPassed": 1440
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "text": "Dyplomatycznie mówisz, że będziesz stał na czatach(po to aby móc w spokoju uciec)",
+                    "results" :[
+                        {
+                            "text": "Grupa zgadza się na to. Kiedy oni zajęci są napadem, Ty spokojnie odchodzisz - nie chcesz mieć z tym nic wspólnego.",
+                            "nextScenarioID": 5,
+                            "moneyReward": 0,
+                            "timeHasPassed": 15
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "text": "Odmawiasz",
+                    "results" :[
+                        {
+                            "text": "Złodzieje wiedzą, że nie mogą zostawiać świadków, więc się z Tobą rozprawiają. Budzisz się nocą - dotkliwie pobity.",
+                            "nextScenarioID": 6,
+                            "moneyReward": 0,
+                            "timeHasPassed": 360
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "text": "Spotykasz bardzo dziwną personę - elegancko ubranego mężczyznę, który ciągle coś mówi do siebie. Zdarza też mu się wykrzykiwać hałsa \"PAŃSTWO NIE ROZUMIECIE!\" lub \"WSZYSTKIE TEORIE SPISKOWE TO ŚCIEMA!\". Co robisz?",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Zagadujesz do przechodnia z nadzieją, że pomoże ci z Twoim problemem.",
+                    "results" :[
+                        {
+                            "text": "Gość jest uradowany, że może się do kogoś odezwać. Powiedziałeś o swoim problemie, ale masz wrażenie, że tak średnio go to obchodzi. Ciągle \"nawija\" o tym, że nie warto się uczyć teorii grafów, że Snowden jest najgorszym przestępcą, że tak na prawdę nikt nas nie śledzi w sieci i nikomu się nie przydadzą nasze dane itd. W końcu przypomniasz mu się i mówisz, że potrzebujesz dojechać do Poznania. Nieznajomy od razu wręcza Ci całą kwotę potrzebną na bilet i mówi żebyś uważał na jego złego brata bliźniaka, który mieszka właśnie w okolicach Poznania.",
+                            "nextScenarioID": 6,
+                            "moneyReward": 23.50,
+                            "timeHasPassed": 45
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "text": "Postanawiasz iść dalej i nie pytać nieznajomego o pomoc",
+                    "results" :[
+                        {
+                            "text": "Po prostu idziesz dalej, choć masz przeczucie, że właśnie omija Cię coś istotnego",
+                            "nextScenarioID": 6,
+                            "moneyReward": 0,
+                            "timeHasPassed": 15
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "text": "Krążysz po tej nieprzyjemnej dzielnicy i nic nie możesz znaleźć. Prawdopodobnie przegapiłeś wszystkie swoje okazje, a nie mogą się one przecież przytrafiać w nieskończoność.",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Krążysz dalej po Bałutach, bo od stania w miejscu to na pewno nic się nie wydarzy.",
+                    "results" :[
+                        {
+                            "text": "Przemierzasz Bałuty wzdłuż i wszerz, ale bez żadnego skutku",
+                            "nextScenarioID": 6,
+                            "moneyReward": 0,
+                            "timeHasPassed": 30
+                        },
+                        {
+                            "text": "Szczęście się do Ciebie uśmiecha. Podczas spacerku po Bałutach znajdujesz na drodze 5zł.",
+                            "nextScenarioID": 6,
+                            "moneyReward": 5,
+                            "timeHasPassed": 30
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "text": "Widzisz okropnie podpitego gościa leżącego na ulicy, który wygląda jakby mógł coś przy sobie mieć. Co robisz?.",
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Okradasz go",
+                    "results" :[
+                        {
+                            "text": "Znajdujesz 100zł. Radujesz się, bo wiesz, że ty jednak wrócisz do domu (w przeciwności do tego nieznajomego, którego zostawiłeś w takiej sytuacji, w jakiej Ty zaczynałeś swoją przygodę).",
+                            "nextScenarioID": 6,
+                            "moneyReward": 100,
+                            "timeHasPassed": 15
+                        },
+                        {
+                            "text": "Nic nie znajdujesz.",
+                            "nextScenarioID": 6,
+                            "moneyReward": 0,
+                            "timeHasPassed": 15
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "text": "Dzownisz na 112",
+                    "results" :[
+                        {
+                            "text": "Ratownicy przyjeżdżają i pomagają nieznajomemu. Udaje im się także wezwać rodzinę poszkodowanego, który w ramach wdziędzności podarowują ci 100zł.",
+                            "nextScenarioID": 6,
+                            "moneyReward": 100,
+                            "timeHasPassed": 60
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "text": "Próbujesz ocucić gościa",
+                    "results" :[
+                        {
+                            "text": "Opiekujesz się gościem przez najbliższą godzinę, co ostatecznie się opłaca. Jakkolwiek sprawny nieznajomy dziękuje Ci za pomoc. W ramach odwdzięczenia się wskazuje Ci drogę. Mówi, że tam wcześniej (zanim padł) widział człowieka, który na pewno Ci pomoże",
+                            "nextScenarioID": 5,
+                            "moneyReward": 0,
+                            "timeHasPassed": 60
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

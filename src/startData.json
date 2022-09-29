@@ -1,0 +1,34 @@
+{
+    "text": "Jak co weekend w sobotę postanowiłeś wyjść na \"małe piwko\" na Stary Rynek ... i to jest mniej więcej tyle ile pamiętasz z wczoraj. Dopiero co się obudziłeś i już na dzień dobry doznajesz szoku rozglądając się po okolicy - dookoła ciebie multum starych zniszczonych bloków, chodniki wyglądają jakby przejechał po nich czołg, ulice ani trochę lepiej. Na otaczających Cię budykach widzisz bardzo dziwne i nienaturalne uszkodzenia, a przechodniów praktycznie nie ma. Myślisz jak to się stało, że wywiało Cię aż na tereny konfliktów zbrojnych, ale sprawdzając lokalizację na telefonie okazuje się że znajdujesz się na ŁÓDZKICH BAŁUTACH. Analizując szybko swoją sytuację okazuje się, że:",
+    "conclusions" : [
+        {
+            "id" : 0,
+            "text": "jest 16:07"
+        },
+        {
+            "id" : 1,
+            "text": "jutro musisz być na labach, bo skonczyły Ci się nieobecności, a na pewno nie chcesz w ten sposób uwalić 6 semetru na informatyce"
+        },
+        {
+            "id" : 2,
+            "text": "jedyna realna forma powrotu to pociąg z Łodzi Fabrycznej do Poznania, który odjeżdża o 21:37"
+        },
+        {
+            "id" : 3,
+            "text": "nie masz przy sobie żadnych pieniędzy, a karta kredytowa jest połamana"
+        },
+        {
+            "id" : 4,
+            "text": "nie masz skonfigurowanego BLIKa i nie pamiętasz danych logowania do banku, więc na pewno go dzisiaj nie użyjesz"
+        },
+        {
+            "id" : 5,
+            "text": "musisz zdobyć bilet albo chociaż pieniądze na niego (kosztuje 23,50zł )"
+        },
+        {
+            "id" : 6,
+            "text": "droga na dworzec jest całkiem długa i zajmuje sporo czasu, dlatego pieniądze musisz zdobyć maks. do 20:37"
+        }
+    ],
+    "restText" : "W celu zdobycia pieniędzy stwierdzasz iż postarasz się go zdobyć w tym mistycznym miejscu gdyż masz wrażenie, że wyżebranie kilkunastu złotych na mieście/dworcu może się nie udać (argument \"strasznie zachlałem i obudziłem się w Łodzi\" rzeczywiście brzmi dziwnie), a po za tym ... jesteś jeszcze młodym studentem żądnych nowych przygód!"
+}

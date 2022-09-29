@@ -1,0 +1,12 @@
+{
+    "Endings": [
+        {
+            "id" : "win",
+            "text" : "Udało się! Uzbierałeś pieniądze na bilet i wyrobiłeś się przed czasem. Ze spokojem ducha docierasz na dworzec, kupujesz bilet i wchodzisz do pociągu. Po weekendzie pełnym przygód możesz w końcu usiąść i trochę odsapnąć."
+        },
+        {
+            "id" : "lose",
+            "text" : "Niestety, nie wyrobiłeś się na pociąg przez co jesteś nieklasyfikowany z kilku przedmiotów. Po za tym zostajesz na noc w Łodzi, co zdecydowanie nie może być przyjemnym doświadczeniem."
+        }
+    ]
+}
