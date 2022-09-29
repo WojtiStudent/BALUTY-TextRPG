@@ -1,3 +1,13 @@
+# About the project
+This is a simple TextRPG game written in React. The entire storyline is written in Polish. Most of the choices have many different outcomes, which are random (once you take a step to win, once you immediately lose or at least take a step back). There are many ways to finish the game, so don't stop playig after the first try.
+
+## Start of the game
+![image](https://user-images.githubusercontent.com/72743103/193109668-c611e3b4-dfd4-47b9-bf89-bc60ace996f4.png)
+## Example event
+![image](https://user-images.githubusercontent.com/72743103/193109888-9cb8e2bc-819f-46f7-b4b0-6b61b92c18c0.png)
+## End of the game
+![image](https://user-images.githubusercontent.com/72743103/193110171-741026e2-f698-4d9d-a127-d503cbffd04c.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
